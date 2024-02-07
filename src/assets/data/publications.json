@@ -1,0 +1,542 @@
+{
+  "2024": [
+    {
+      "title": "MultiBEATS: Blocks of eigenvalues algorithm for multivariate time series dimensionality reduction",
+      "authors": "Aurora González-Vidal, Antonio Martinez-Ibarra, Antonio F Skarmeta",
+      "journal": "Information Fusion",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S156625352300475X",
+      "citations": "0",
+      "abstract": "Multivariate Time Series are sequences of observations taken from multiple sources. The proliferation of environments in which data is collected by means of sensors and the adoption of data-based services reveals the importance of their efficient analysis. In smart environments, the analysis of the raw Multivariate Time Series is cumbersome. The algorithms are heavy, slow, and fail to extract all the knowledge available. In that sense, representation techniques reduce the data points but maintain the inner patterns so that the information present in data persists. There exist several approaches to represent Univariate Time Series, but for the multivariate case they are scarce. We have adapted the existent univariate representation algorithm BEATS, which is based on Discrete Cosine transformation and the extraction of eigenvalues to multivariate scenarios and we have called it MultiBEATS. Our method allows …",
+      "citations_link": ""
+    },
+    {
+      "title": "A Convolutional Neural Network approach for image-based anomaly detection in smart agriculture",
+      "authors": "José Mendoza-Bernal, Aurora González-Vidal, Antonio F Skarmeta",
+      "journal": "Expert Systems with Applications",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S0957417424000757",
+      "citations": "0",
+      "abstract": "The recent technological advances and their applications to agriculture provide leverage for the new paradigm of smart agriculture. Remote sensing applications can help optimize resources, making agriculture more ecological, increasing productivity and helping farmers to anticipate events that could not otherwise be avoided. Considering that losses caused by anomalies such as diseases, weeds and pests account for 20-40 % of overall agricultural productivity, a successful research effort in this area would be a breakthrough for agriculture. In this paper, we propose a methodology with which to discover and classify anomalies in images of crops, taken from a wide range of distances, using different Convolutional Neural Network architectures. This methodology also deals with several difficulties that usually appear in this kind of problems, such as class imbalance, the insufficient and small variety of images …",
+      "citations_link": ""
+    }
+  ],
+  "2023": [
+    {
+      "title": "PLEIAData: consumption, HVAC, temperature, weather and motion sensor data for smart buildings applications",
+      "authors": "Antonio Martínez Ibarra, Aurora González-Vidal, Antonio Skarmeta",
+      "journal": "Scientific Data",
+      "doi": "https://www.nature.com/articles/s41597-023-02023-3",
+      "citations": "6",
+      "abstract": "The current cost that energy represents is crucial in a field like climate control which has high energy demands, therefore its reduction must be prioritized. The expansion of ICT and IoT come with an extensive deployment of sensors and computation infrastructure creating an opportunity to analyze and optimize energy management. Data on building internal and external conditions is essential for developing efficient control strategies in order to minimize energy consumption while maintaining users’ comfort inside. We here present a dataset that provides key features that could be useful for a wide range of applications in the context of modeling temperature and consumption via Artificial Intelligence algorithms. The data gathering has taken place for almost 1 year in the Pleiades building of the University of Murcia, which is a pilot building of the European project PHOENIX aiming to improve building energy efficiency.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=14680364811085324227&as_sdt=5"
+    },
+    {
+      "title": "Federated Transfer Learning for Energy Efficiency in Smart Buildings",
+      "authors": "Enrique Mármol Campos, Aurora González Vidal, José L Hernández Ramos, Antonio Skarmeta",
+      "journal": "IEEE INFOCOM 2023-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/10225844/",
+      "citations": "1",
+      "abstract": "Nowadays, the generation of energy consumption models in buildings needs to address several issues. Indeed, most existing buildings lack the appropriate equipment to obtain the data required to create such models. Furthermore, the nature of energy consumption data could be correlated with additional information about people in the building that could raise privacy concerns. Based on such aspects, we propose a Federated Transfer Learning (FTL) framework to handle these buildings' data without compromising any private information in which a set of buildings are clustered according to certain characteristics. On the one hand, our works leverage the properties of Federated Learning (FL) to train an energy forecasting model using a small portion of the available buildings respecting their privacy. On the other hand, we transfer the model to the rest of the buildings by using Transfer Learning (TL). We extensively …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5287575398710732685&as_sdt=5"
+    },
+    {
+      "title": "On Serving Image Classification Models",
+      "authors": "Aurora González-Vidal, Alexander Isenko, KR Jayaram",
+      "journal": "Proceedings of the 9th International Workshop on Serverless Computing",
+      "doi": "https://dl.acm.org/doi/abs/10.1145/3631295.3631401",
+      "citations": "0",
+      "abstract": "This paper aims to optimize model inference in interactive applications by reducing the infrastructure costs. It seeks to improve resource utilization, lower costs, and enhance the scalability and responsiveness of model serving systems. The focus is on achieving efficient inference in computer vision but has potential applications in other domains. The study involved experiments using a single GPU to analyze the impact of input image size and mini-batch size on request delivery time for image classification. Key findings include a model to estimate GPU warm-up time based on four parameters, the ratification of the existence of a linear relationship between mini-batch size and inference given one particular model, and the need to consider input size when selecting mini-batch size to avoid GPU crashes. Additionally, two mathematical models are proposed for further exploration using optimization algorithms. We also …",
+      "citations_link": ""
+    },
+    {
+      "title": "Intrusion Detection based on Federated Learning: a systematic review",
+      "authors": "Jose L Hernandez-Ramos, Georgios Karopoulos, Efstratios Chatzoglou, Vasileios Kouliaridis, Enrique Marmol, Aurora Gonzalez-Vidal, Georgios Kambourakis",
+      "journal": "arXiv preprint arXiv:2308.09522",
+      "doi": "https://arxiv.org/abs/2308.09522",
+      "citations": "0",
+      "abstract": "The evolution of cybersecurity is undoubtedly associated and intertwined with the development and improvement of artificial intelligence (AI). As a key tool for realizing more cybersecure ecosystems, Intrusion Detection Systems (IDSs) have evolved tremendously in recent years by integrating machine learning (ML) techniques for the detection of increasingly sophisticated cybersecurity attacks hidden in big data. However, these approaches have traditionally been based on centralized learning architectures, in which data from end nodes are shared with data centers for analysis. Recently, the application of federated learning (FL) in this context has attracted great interest to come up with collaborative intrusion detection approaches where data does not need to be shared. Due to the recent rise of this field, this work presents a complete, contemporary taxonomy for FL-enabled IDS approaches that stems from a comprehensive survey of the literature in the time span from 2018 to 2022. Precisely, our discussion includes an analysis of the main ML models, datasets, aggregation functions, as well as implementation libraries, which are employed by the proposed FL-enabled IDS approaches. On top of everything else, we provide a critical view of the current state of the research around this topic, and describe the main challenges and future directions based on the analysis of the literature and our own experience in this area.",
+      "citations_link": ""
+    },
+    {
+      "title": "Internet of Things: 5th The Global IoT Summit, GIoTS 2022, Dublin, Ireland, June 20–23, 2022, Revised Selected Papers",
+      "authors": "Aurora González-Vidal, Ahmed Mohamed Abdelgawad, Essaid Sabir, Sébastien Ziegler, Latif Ladid",
+      "journal": "Springer Nature",
+      "doi": "https://books.google.com/books?hl=en&lr=&id=JdakEAAAQBAJ&oi=fnd&pg=PR5&dq=info:4RUiByXQbmoJ:scholar.google.com&ots=aEFq36_B1J&sig=IFVXNbpe9l028xmmRy-QxAvhBI0",
+      "citations": "0",
+      "abstract": "This book constitutes revised selected papers from the refereed proceedings of the 5th The Global IoT Summit, GIoTS 2022, which took place in Dublin, Ireland, in June 20–23, 2022. The 33 full papers included in this book were carefully reviewed andselected from 75 submissions. They were organized in topical sections as follows: ioT enabling technologies; ioT applications, services and real implementations; ioT security, privacy and data protection; and ioT pilots, testbeds and experimentation results.",
+      "citations_link": ""
+    },
+    {
+      "title": "Misbehavior Detection in Intelligent Transportation Systems Based on Federated Learning",
+      "authors": "Enrique Mármol Campos, José Luis Hernández Ramos, Aurora González Vidal, Gianmarco Baldini, Antonio Skarmeta",
+      "journal": "Available at SSRN 4432351",
+      "doi": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4432351",
+      "citations": "0",
+      "abstract": "Misbehavior detection represents a key security approach in vehicular scenarios to identify attacks that cannot be detected by traditional cryptographic mechanisms. In this context, the application of Machine Learning (ML) techniques has been widely considered to identify increasingly sophisticated misbehavior attacks. However, most of the proposed approaches are based on centralized settings, which could pose privacy issues, as well as an increased latency leading to severe consequences in the vehicular environment where real-time and scalability requirements are challenging. To address this issue, we propose a collaborative learning approach based on Federated Learning (FL) for vehicles’ misbehavior detection. We use the reference misbehavior dataset VeReMi, which is re-balanced by applying the SMOTE-Tomek technique. We carry out a thorough evaluation considering different balancing settings and number of nodes. The evaluation results overcome recent state-of-the-art approaches, with an overall accuracy of 93\\% using an optimized multilayer perceptron (MLP) for multiclass classification.",
+      "citations_link": ""
+    },
+    {
+      "title": "SPECIAL ISSUE ON SMART BUILDINGS FOR SMART CITIES",
+      "authors": "A González-Vidal, J Mendoza-Bernal, S Niu, AF Skarmeta, H Song, Z Dong, X Ji, G Zhou, M Gao, D Qi, A Saif, SK Khadem, MF Conlon, B Norton, MS Misaghian, G Tardioli, A Guerra Cabrera, I Salerno, D Flynn, R Kerrigan, O Alibrahim, S Padmanaban, M Khan, O Khattab, B Alothman, C Joumaa",
+      "journal": "IEEE Transactions on Industry Applications",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/10021958/",
+      "citations": "0",
+      "abstract": "",
+      "citations_link": ""
+    }
+  ],
+  "2022": [
+    {
+      "title": "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and challenges",
+      "authors": "Enrique Mármol Campos, Pablo Fernández Saura, Aurora González-Vidal, José L Hernández-Ramos, Jorge Bernal Bernabé, Gianmarco Baldini, Antonio Skarmeta",
+      "journal": "Computer Networks",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S1389128621005405",
+      "citations": "99",
+      "abstract": "The application of Machine Learning (ML) techniques to the well-known intrusion detection systems (IDS) is key to cope with increasingly sophisticated cybersecurity attacks through an effective and efficient detection process. In the context of the Internet of Things (IoT), most ML-enabled IDS approaches use centralized approaches where IoT devices share their data with data centers for further analysis. To mitigate privacy concerns associated with centralized approaches, in recent years the use of Federated Learning (FL) has attracted a significant interest in different sectors, including healthcare and transport systems. However, the development of FL-enabled IDS for IoT is in its infancy, and still requires research efforts from various areas, in order to identify the main challenges for the deployment in real-world scenarios. In this direction, our work evaluates a FL-enabled IDS approach based on a multiclass …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=17486591306556948620&as_sdt=5"
+    },
+    {
+      "title": "Understanding patterns of thermostat overrides after demand response events",
+      "authors": "Valentina Tomat, Marika Vellei, Alfonso P Ramallo-González, Aurora González-Vidal, Jérôme Le Dréau, Antonio Skarmeta-Gómez",
+      "journal": "Energy and Buildings",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S0378778822004832",
+      "citations": "14",
+      "abstract": "Demand Response (DR) strategies represent an innovative option to optimise energy management. In particular, smart thermostats have captured the attention of the scientific community for their effectiveness in achieving energy-saving and peak-shaving by lowering HVAC consumption during critical hours of the year. One way of achieving this aim, is to leave the control of the smart thermostat to a third party for the duration of the DR event in the so-called Direct Load Control (DLC) configuration. Most research focuses on thermostat overrides during DR events; in this work, we use real world data from the Donate Your Data dataset to analyse the interaction of users with the thermostat around the DR event. In particular, this work focuses on users that interact with the thermostat before (anticipative behaviour) or during the DR event (reactive behaviour), leading to a lower efficiency of the load control. Through …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=3782111363717574819&as_sdt=5"
+    },
+    {
+      "title": "Reducing energy consumption in the workplace via iot-allowed behavioural change interventions",
+      "authors": "Alfonso P Ramallo-González, Cleopatra Bardaki, Dimosthenis Kotsopoulos, Valentina Tomat, Aurora González Vidal, Pedro J Fernandez Ruiz, Antonio Skarmeta Gómez",
+      "journal": "Buildings",
+      "doi": "https://www.mdpi.com/2075-5309/12/6/708",
+      "citations": "11",
+      "abstract": "The arrival of the Internet of Things (IoT) paradigm has opened the door to a variety of services for building users. Considering the long-lasting issue of high energy use by buildings and low-energy literacy, it is tempting to use this new technology for increasing the literacy of users. This paper shows the results of a study performed in two pilot buildings with real users that have interacted with a series of energy educational interventions that encourage them in a timed and personalised way to reduce their energy consumption. The interventions aimed at reducing the consumption of energy and a close follow-up of the intervention from a behavioural aspect has been performed. The results show that the users, when interacting with the intervention and staying active, can reduce the energy consumption in the building by more than 30%, but the average savings are of 20%. This is in consensus with the literature, but in our case, the intervention has been one showing that personalised methods can result in energy reductions as large as those of more standard interventions.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=12029268766798311250&as_sdt=5"
+    },
+    {
+      "title": "A Transfer Learning Framework for predictive energy-related scenarios in Smart Buildings",
+      "authors": "Aurora González-Vidal, José Mendoza-Bernal, Shuteng Niu, Antonio F Skarmeta, Houbing Song",
+      "journal": "IEEE Transactions on Industry Applications",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9785886/",
+      "citations": "10",
+      "abstract": "Human activities and city routines follow patterns. Transfer learning can help achieve scalable solutions toward the realization of smart cities accounting for similarities between regions, domains, and activities. In this study, we propose a transfer learning-based framework for smart buildings to test this hypothesis in energy-related problems. Our framework has two major components: the network creation and the transferable predictive model. In order to create the network that groups buildings sharing characteristics, we evaluated two strategies: a novel clustering algorithm for mixed data, k -prod, and clustering the image-based representation of time series. Then, a combination of long short term memory and convolutional neural network was trained on the centroids of the clusters for energy consumption prediction. The coefficient of variation of the root mean squared error (CVRMSE) of the predictions in such …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=12590505455507211060&as_sdt=5"
+    },
+    {
+      "title": "Parking Availability Prediction with Coarse-Grained Human Mobility Data",
+      "authors": "Aurora Gonzalez-Vidal, Fernando Terroso-Sáenz, Antonio Skarmeta",
+      "journal": "CMC-COMPUTERS MATERIALS & CONTINUA",
+      "doi": "https://cdn.techscience.cn/ueditor/files/cmc/TSP_CMC-71-3/TSP_CMC_21492/TSP_CMC_21492.pdf",
+      "citations": "5",
+      "abstract": "Nowadays, the anticipation of parking-space demand is an instrumental service in order to reduce traffic congestion levels in urban spaces. The purpose of our work is to study, design and develop a parking-availability predictor that extracts the knowledge from human mobility data, based on the anonymized human displacements of an urban area, and also from weather conditions. Most of the existing solutions for this prediction take as contextual data the current road-traffic state defined at very high temporal or spatial resolution. However, access to this type of fine-grained location data is usually quite limited due to several economic or privacy-related restrictions. To overcome this limitation, our proposal uses urban areas that are defined at very low spatial and temporal resolution. We conducted several experiments using three Artificial Neural Networks: Multilayer Perceptron, Gated Recurrent Units and bidirectional Long Short Term Memory networks and we tested their suitability using different combinations of inputs. Several metrics are provided for the sake of comparison within our study and between other studies. The solution has been evaluated in a real-world testbed in the city of Murcia (Spain) integrating an open human-mobility dataset showing high accuracy. A MAPE between 4% and 10% was reported in horizons of 1 to 3 h.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=4337993457099929436&as_sdt=5"
+    },
+    {
+      "title": "Smart Operation of Climatic Systems in a Greenhouse",
+      "authors": "Aurora González-Vidal, José Mendoza-Bernal, Alfonso P Ramallo, Miguel Ángel Zamora, Vicente Martínez, Antonio F Skarmeta",
+      "journal": "Agriculture",
+      "doi": "https://www.mdpi.com/2077-0472/12/10/1729",
+      "citations": "3",
+      "abstract": "The purpose of our work is to leverage the use of artificial intelligence for the emergence of smart greenhouses. Greenhouse agriculture is a sustainable solution for food crises and therefore data-based decision-support mechanisms are needed to optimally use them. Our study anticipates how the combination of climatic systems will affect the temperature and humidity of the greenhouse. More specifically, our methodology anticipates if a set-point will be reached in a given time by a combination of climatic systems and estimates the humidity at that time. We performed exhaustive data analytics processing that includes the interpolation of missing values and data augmentation, and tested several classification and regression algorithms. Our method can predict with a 90% accuracy if, under current conditions, a combination of climatic systems will reach a fixed temperature set-point, and it is also able to estimate the humidity with a 2.83% CVRMSE. We integrated our methodology on a three-layer holistic IoT platform that is able to collect, fuse and analyze real data in a seamless way.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=13308694144087577809&as_sdt=5"
+    },
+    {
+      "title": "Intrinsic and extrinsic quality of data for open data repositories",
+      "authors": "Aurora Gonzalez-Vidal, Alfonso P Ramallo-González, Antonio F Skarmeta",
+      "journal": "ICT Express",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S240595952200090X",
+      "citations": "2",
+      "abstract": "This work assesses the quality of Internet of Things data not only as an intrinsic quality on how well it represents the related phenomenon but also, on how much information it contains to educate an artificial entity. The quality metrics here proposed are tested with real datasets. Also, they are implemented on OpenCPU, so the open data repositories can use them off-the-shelf to rate their datasets without computational cost and minimum human intervention, making them more attractive to potential users and gaining visibility and impact.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=11886007792298608840&as_sdt=5"
+    },
+    {
+      "title": "A novel learning algorithm based on bayesian statistics: Modelling thermostat adjustments for heating and cooling in buildings",
+      "authors": "Alfonso P Ramallo-González, Aurora González-Vidal, Fernando Terroso-Saenz, Antonio F Skarmeta-Gómez",
+      "journal": "Mathematics",
+      "doi": "https://www.mdpi.com/2227-7390/10/14/2363",
+      "citations": "2",
+      "abstract": "The temperature of indoor spaces is at the core of highly relevant topics such as comfort, productivity and health. In conditioned spaces, this temperature is determined by thermostat preferences, but there is a lack of understanding of this phenomenon as a time-dependent magnitude. In addition to this, there is scientific evidence that the mental models of how users understand the operation of the billions of air-conditioning machines around the world are incorrect, which causes systems to ‘compensate’ for temperatures outside by adjusting the thermostat, which leads to erratic changes on set-points over the day. This paper presents the first model of set-point temperature as a time-dependent variable. Additionally, a new mathematical algorithm was developed to complement these models and make possible their identification on the go, called the life Bayesian inference of transition matrices. Data from a total of 75 + 35 real thermostats in two buildings for more than a year were used to validate the model. The method was shown to be highly accurate, fast, and computationally trivial in terms of time and memory, representing a change in the paradigm for smart thermostats.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=1856400310559739022&as_sdt=5"
+    },
+    {
+      "title": "Design and Implementation of an Interoperable Architecture for Integrating Building Legacy Systems into Scalable Energy Management Systems",
+      "authors": "Aristotelis Ntafalias, Sotiris Tsakanikas, Spyros Skarvelis-Kazakos, Panagiotis Papadopoulos, Antonio F Skarmeta-Gómez, Aurora González-Vidal, Valentina Tomat, Alfonso P Ramallo-González, Rafael Marin-Perez, Maria C Vlachou",
+      "journal": "Smart Cities",
+      "doi": "https://www.mdpi.com/2624-6511/5/4/73",
+      "citations": "1",
+      "abstract": "The building sector is responsible for a significant amount of energy consumption and greenhouse gas (GHG) emissions. Thus, the monitoring, control and optimization of energy consumption in buildings will play a critical role in the coming years in improving energy efficiency in the building sector and in reducing greenhouse gas emissions. However, while there are a significant number of studies on how to make buildings smarter and manage energy through smart devices, there is a need for more research on integrating buildings with legacy equipment and systems. It is therefore vital to define mechanisms to improve the use of energy efficiency in existing buildings. This study proposes a new architecture (PHOENIX architecture) for integrating legacy building systems into scalable energy management systems with focus also on user comfort in the concept of interoperability layers. This interoperable and intelligent architecture relies on Artificial Intelligence/Machine Learning (AI/ML) and Internet of Things (IoT) technologies to increase building efficiency, grid flexibility and occupant well-being. To validate the architecture and demonstrate the impact and replication potential of the proposed solution, five demonstration pilots have been utilized across Europe. As a result, by implementing the proposed architecture in the pilot sites, 30 apartments and four commercial buildings with more than 400 devices have been integrated into the architecture and have been communicating successfully. In addition, six Trials were performed in a commercial building and five key performance indicators (KPIs) were measured in order to evaluate the robust …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=10710642068065130363&as_sdt=5"
+    },
+    {
+      "title": "PhenoExam: gene set analyses through integration of different phenotype databases",
+      "authors": "Alejandro Cisterna, Aurora González-Vidal, Daniel Ruiz, Jordi Ortiz, Alicia Gómez-Pascual, Zhongbo Chen, Mike Nalls, Faraz Faghri, John Hardy, Irene Díez, Paolo Maietta, Sara Álvarez, Mina Ryten, Juan A Botía",
+      "journal": "BMC bioinformatics",
+      "doi": "https://link.springer.com/article/10.1186/s12859-022-05122-x",
+      "citations": "0",
+      "abstract": "Background. Gene set enrichment analysis (detecting phenotypic terms that emerge as significant in a set of genes) plays an important role in bioinformatics focused on diseases of genetic basis. To facilitate phenotype-oriented gene set analysis, we developed PhenoExam, a freely available R package for tool developers and a web interface for users, which performs: (1) phenotype and disease enrichment analysis on a gene set; (2) measures statistically significant phenotype similarities between gene sets and (3) detects significant differential phenotypes or disease terms across different databases. Results. PhenoExam generates sensitive and accurate phenotype enrichment analyses. It is also effective in segregating gene sets or Mendelian diseases with very similar phenotypes. We tested the tool with two similar diseases (Parkinson and dystonia), to show phenotype-level similarities but also potentially …",
+      "citations_link": ""
+    },
+    {
+      "title": "The correlation between point-of-care ultrasound and digital tomosynthesis when used with suspected COVID-19 pneumonia patients in primary care",
+      "authors": "Pablo Fabuel Ortega, Noelia Almendros Lafuente, Sandra Cánovas García, Laura Martínez Gálvez, Aurora González-Vidal",
+      "journal": "The Ultrasound Journal",
+      "doi": "https://theultrasoundjournal.springeropen.com/articles/10.1186/s13089-022-00257-7",
+      "citations": "0",
+      "abstract": "The use of lung ultrasound (LU) with COVID-19 pneumonia patients should be validated in the field of primary care (PC). Our study aims to evaluate the correlation between LU and radiographic imaging in PC patients with suspected COVID-19 pneumonia. This observational, prospective and multicentre study was carried out with patients from a PC health area whose tests for COVID-19 and suspected pneumonia had been positive and who then underwent LU and a digital tomosynthesis (DT). Four PC physicians obtained data regarding the patients’ symptoms, examination, medical history and ultrasound data for 12 lung fields: the total amount of B lines (zero to four per field), the irregularity of the pleural line, subpleural consolidation, lung consolidation and pleural effusion. These data were subsequently correlated with the presence of pneumonia by means of DT, the need for hospital admission and a consultation in the hospital emergency department in the following 15 days. The study was carried out between November 2020 and January 2021 with 70 patients (40 of whom had pneumonia, confirmed by means of DT). Those with pneumonia were older, had a higher proportion of arterial hypertension and lower oxygen saturation (sO2). The number of B lines was higher in patients with pneumonia (16.53 vs. 4.3, p < 0.001). The area under the curve for LU was 0.87 (95% CI 0.78–0.96, p < 0.001), and when establishing a cut-off point of six B lines or more, the sensitivity was 0.875 (95% CI 0.77–0.98, p < 0.05), the specificity was 0.833 (95% CI 0.692–0.975, p < 0.05), the positive-likelihood ratio was 5.25 (95% CI 2.34–11.79, p < 0 …",
+      "citations_link": ""
+    },
+    {
+      "title": "A combination of multi and univariate anomaly detection in urban irrigation systems",
+      "authors": "Aurora González-Vidal, Jesús Fernández-García, Antonio F Skarmeta",
+      "journal": "2022 3rd International Conference on Embedded & Distributed Systems (EDiS)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9996520/",
+      "citations": "0",
+      "abstract": "Water scarcity is a global concern that requires a more intelligent way to manage the water network in order to minimize consumption and losses. There is a current need for new automated and intelligent decision support systems that employ data analytic advances to analyze in real-time the anomalies and problems that appear in water usage. In our case, we have developed a 3 steps system using unsupervised algorithms, that has been tested on the irrigation of urban parks. Those steps consist of grouping the parks according to similarities in the irrigation by clustering the consumption time series, searching for the dates where multivariate anomalies occur in every group using the Vector Autoregressive Model, and finally, applying an ARIMA framework to each series in the area of those dates. Our methodology reduces the time that anomaly detection univariate systems require for analysing the whole univariate …",
+      "citations_link": ""
+    },
+    {
+      "title": "NGI Search: The need for Trust and Privacy in Search, Discovery and Indexing",
+      "authors": "Aurora González-Vidal, Antonio Skarmeta, Mirko Presser, Marie Claire Tonna, Manuel Noya, Pierre Yves Gibello",
+      "journal": "4th International Open Search Symposium",
+      "doi": "https://indico.cern.ch/event/1149330/contributions/5074591/attachments/2524895/4344266/NGI_Search___OSSYM_2022-3.pdf",
+      "citations": "0",
+      "abstract": "Social computing are the systems that support the gathering, representation, processing, use, and dissemination of information that is distributed across social collectivities. The interaction between social behaviour and technologies needs to be addressed in order to reach substantial changes in the behaviour of the adopters.",
+      "citations_link": ""
+    },
+    {
+      "title": "Data Analytics in Smart Buildings",
+      "authors": "M Victoria Moreno, Fernando Terroso-Sáenz, Aurora González-Vidal, Antonio F Skarmeta",
+      "journal": "Building Blocks for IoT Analytics",
+      "doi": "https://library.oapen.org/bitstream/handle/20.500.12657/59739/1/9781000793659.pdf#page=198",
+      "citations": "0",
+      "abstract": "Cities are becoming more and more of a focal point for our economies and societies at large, particularly because of on-going urbanisation, and the trend towards increasingly knowledge-intensive economies as well as their growing share of resource consumption and emissions. To meet public policy objectives under these circumstances, cities need to change and develop, but in times of tight budgets this change needs to be achieved in a smart way: our cities need to become “smart cities”. In order to follow the policy of the decarbonisation of Europe’s economy in line with the EU 20/20/20 energy and climate goals, today’s ICT, energy (use), transport systems and infrastructures have to drastically change. The EU needs to shift to sustainable production and use of energy, to sustainable mobility, and sustainable ICT infrastructures and services. Cities and urban communities play a crucial role in this process. Three quarters of our citizens live in urban areas, consuming 70% 1 of the EU’s overall energy consumption and emitting roughly the same share of Green House Gas (GHG). Of that, buildings and transport represent the lion’s share. Within the worldwide perspective of energy efficiency, it is important to highlight that buildings are responsible for 40% of total EU energy consumption and generate 36% of GHG [1]. This indicates the need to achieve energy-efficient buildings to reduce their CO2 emissions and their energy consumption. Moreover, the building environment affects the quality of life and work of all citizens. Thus, buildings must be capable of not only providing mechanisms",
+      "citations_link": ""
+    },
+    {
+      "title": "smart cities",
+      "authors": "Aristotelis Ntafalias, Sotiris Tsakanikas, Spyros Skarvelis-Kazakos, Panagiotis Papadopoulos, Antonio F Skarmeta-Gómez, Aurora González-Vidal, Valentina Tomat, Alfonso P Ramallo-González, Rafael Marin-Perez, Maria C Vlachou",
+      "journal": "",
+      "doi": "https://sussex.figshare.com/articles/journal_contribution/Design_and_implementation_of_an_interoperable_architecture_for_integrating_building_legacy_systems_into_scalable_energy_management_systems/23493866/1/files/41202008.pdf",
+      "citations": "0",
+      "abstract": "The building sector is responsible for a significant amount of energy consumption and greenhouse gas (GHG) emissions. Thus, the monitoring, control and optimization of energy consumption in buildings will play a critical role in the coming years in improving energy efficiency in the building sector and in reducing greenhouse gas emissions. However, while there are a significant number of studies on how to make buildings smarter and manage energy through smart devices, there is a need for more research on integrating buildings with legacy equipment and systems. It is therefore vital to define mechanisms to improve the use of energy efficiency in existing buildings. This study proposes a new architecture (PHOENIX architecture) for integrating legacy building systems into scalable energy management systems with focus also on user comfort in the concept of interoperability layers. This interoperable and intelligent architecture relies on Artificial Intelligence/Machine Learning (AI/ML) and Internet of Things (IoT) technologies to increase building efficiency, grid flexibility and occupant well-being. To validate the architecture and demonstrate the impact and replication potential of the proposed solution, five demonstration pilots have been utilized across Europe. As a result, by implementing the proposed architecture in the pilot sites, 30 apartments and four commercial buildings with more than 400 devices have been integrated into the architecture and have been communicating successfully. In addition, six Trials were performed in a commercial building and five key performance indicators (KPIs) were measured in order to evaluate the robust …",
+      "citations_link": ""
+    },
+    {
+      "title": "Intrusion Detection based on Privacy-preserving Federated Learning for the Industrial IoT",
+      "authors": "Pedro Ruzafa-Alcázar, Pablo Fernández-Saura, Enrique Mármol-Campos, Aurora González-Vidal, José L Hernández-Ramos, Jorge Bernal-Bernabe, Antonio F Skarmeta",
+      "journal": "IEEE-INST",
+      "doi": "https://publications.jrc.ec.europa.eu/repository/handle/JRC126184",
+      "citations": "0",
+      "abstract": "JRC Publications Repository Skip navigation An official website of the European UnionAn official EU website How do you know? All official European Union website addresses are in the europa.eu domain. See all EU institutions and bodies European Commission logo JRC Publications Repository Menu Menu Close Home European Commission JRC JRC Publications Repository Home Language Format Citation Name Country City Type Show metadata record Copy citation url to clipboard Items published in the JRC Publications Repository are protected by copyright, with all rights reserved, unless otherwise indicated. Additional information: https://ec.europa.eu/info/legal-notice_en#copyright-notice Share this page Twitter Facebook Linkedin E-mail JRC Publications Repository This site is managed by the Joint Research Centre Contact us Contact JRC Publications Repository About us About page European …",
+      "citations_link": ""
+    },
+    {
+      "title": "SOA PAPER",
+      "authors": "E Mármol-Campos, A González-Vidal, JL Hernández-Ramos, J Bernal-Bernabe, AF Skarmeta",
+      "journal": "IEEE Transactions on Industrial Informatics ",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9989329/",
+      "citations": "0",
+      "abstract": "",
+      "citations_link": ""
+    }
+  ],
+  "2021": [
+    {
+      "title": "Intrusion detection based on privacy-preserving federated learning for the industrial IoT",
+      "authors": "Pedro Ruzafa-Alcázar, Pablo Fernández-Saura, Enrique Mármol-Campos, Aurora González-Vidal, José L Hernández-Ramos, Jorge Bernal-Bernabe, Antonio F Skarmeta",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9609643/",
+      "citations": "48",
+      "abstract": "Federated learning (FL) has attracted significant interest given its prominent advantages and applicability in many scenarios. However, it has been demonstrated that sharing updated gradients/weights during the training process can lead to privacy concerns. In the context of the Internet of Things (IoT), this can be exacerbated due to intrusion detection systems (IDSs), which are intended to detect security attacks by analyzing the devices’ network traffic. Our work provides a comprehensive evaluation of differential privacy techniques, which are applied during the training of an FL-enabled IDS for industrial IoT. Unlike previous approaches, we deal with nonindependent and identically distributed data over the recent ToN_IoT dataset, and compare the accuracy obtained considering different privacy requirements and aggregation functions, namely FedAvg and the recently proposed Fed+. According to our evaluation …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5135807050663674430&as_sdt=5"
+    },
+    {
+      "title": "Distributed real-time SlowDoS attacks detection over encrypted traffic using Artificial Intelligence",
+      "authors": "Norberto Garcia, Tomas Alcaniz, Aurora González-Vidal, Jorge Bernal Bernabe, Diego Rivera, Antonio Skarmeta",
+      "journal": "Journal of Network and Computer Applications",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S1084804520303362",
+      "citations": "43",
+      "abstract": "SlowDoS attacks exploit slow transmissions on application-level protocols like HTTP to carry out denial of service against web-servers. These attacks are difficult to be detected with traditional signature-based intrusion detection approaches, even more when the HTTP traffic is encrypted. To cope with this challenge, this paper describes and AI-based anomaly detection system for real-time detection of SlowDoS attacks over application-level encrypted traffic. Our system monitors in real-time the network traffic, analyzing, processing and aggregating packets into conversation flows, getting valuable features and statistics that are dynamically analyzed in streaming for AI-based anomaly detection. The distributed AI model running in Apache Spark-streaming, combines clustering analysis for anomaly detection, along with deep learning techniques to increase detection accuracy in those cases where clustering obtains …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=2028433931687662878&as_sdt=5"
+    },
+    {
+      "title": "CIoTVID: Towards an open IoT-platform for infective pandemic diseases such as COVID-19",
+      "authors": "Alfonso P Ramallo-González, Aurora González-Vidal, Antonio F Skarmeta",
+      "journal": "Sensors",
+      "doi": "https://www.mdpi.com/1424-8220/21/2/484",
+      "citations": "26",
+      "abstract": "The factors affecting the penetration of certain diseases such as COVID-19 in society are still unknown. Internet of Things (IoT) technologies can play a crucial role during the time of crisis and they can provide a more holistic view of the reasons that govern the outbreak of a contagious disease. The understanding of COVID-19 will be enriched by the analysis of data related to the phenomena, and this data can be collected using IoT sensors. In this paper, we show an integrated solution based on IoT technologies that can serve as opportunistic health data acquisition agents for combating the pandemic of COVID-19, named CIoTVID. The platform is composed of four layers—data acquisition, data aggregation, machine intelligence and services, within the solution. To demonstrate its validity, the solution has been tested with a use case based on creating a classifier of medical conditions using real data of voice, performing successfully. The layer of data aggregation is particularly relevant in this kind of solution as the data coming from medical devices has a very different nature to that coming from electronic sensors. Due to the adaptability of the platform to heterogeneous data and volumes of data; individuals, policymakers, and clinics could benefit from it to fight the propagation of the pandemic.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=6055283757373026791&as_sdt=5"
+    },
+    {
+      "title": "Iotcrawler: Challenges and solutions for searching the internet of things",
+      "authors": "Thorben Iggena, Eushay Bin Ilyas, Marten Fischer, Ralf Tönjes, Tarek Elsaleh, Roonak Rezvani, Narges Pourshahrokhi, Stefan Bischof, Andreas Fernbach, Josiane Xavier Parreira, Patrik Schneider, Pavel Smirnov, Martin Strohbach, Hien Truong, Aurora González-Vidal, Antonio F Skarmeta, Parwinder Singh, Michail J Beliatis, Mirko Presser, Juan A Martinez, Pedro Gonzalez-Gil, Marianne Krogbæk, Sebastian Holmgård Christophersen",
+      "journal": "Sensors",
+      "doi": "https://www.mdpi.com/1424-8220/21/5/1559",
+      "citations": "16",
+      "abstract": "Due to the rapid development of the Internet of Things (IoT) and consequently, the availability of more and more IoT data sources, mechanisms for searching and integrating IoT data sources become essential to leverage all relevant data for improving processes and services. This paper presents the IoT search framework IoTCrawler. The IoTCrawler framework is not only another IoT framework, it is a system of systems which connects existing solutions to offer interoperability and to overcome data fragmentation. In addition to its domain-independent design, IoTCrawler features a layered approach, offering solutions for crawling, indexing and searching IoT data sources, while ensuring privacy and security, adaptivity and reliability. The concept is proven by addressing a list of requirements defined for searching the IoT and an extensive evaluation. In addition, real world use cases showcase the applicability of the framework and provide examples of how it can be instantiated for new scenarios.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=6464706280812461992&as_sdt=5"
+    },
+    {
+      "title": "Interoperable and Intelligent Architecture for Smart Buildings",
+      "authors": "Pedro Gonzalez-Gil, Rafael Marin-Perez, Aurora González-Vidal, Alfonso P Ramallo-González, Antonio F Skarmeta",
+      "journal": "2021 IEEE International Conference on Smart Internet of Things (SmartIoT)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9555845/",
+      "citations": "5",
+      "abstract": "Smart Building is essential to advance towards more comfortable and sustainable cities. However, existing Building Management Systems (BMS) are proprietary non-interoperable solutions based on automatic operations configured by the users. These BMS can not control intelligently current and future buildings with highly heterogeneous legacy appliances and equipment including renewable energy generation, storage, e-vehicles charging points among others. In order to achieve it, this paper proposes an interoperable and intelligent architecture based on recent ICT technologies such as Internet of Things, Artificial Intelligence and Cybersecurity Protocols. This architecture provides five main innovations such as adapt-&-play hardware integration, standardised multi-systems interoperability, building/human behaviours prediction, security/privacy protection and smart services provision for increasing building …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=2846997494092026609&as_sdt=5"
+    },
+    {
+      "title": "PhenoExam: an R package and Web application for the examination of phenotypes linked to genes and gene sets",
+      "authors": "Alejandro Cisterna, Aurora González-Vidal, Daniel Ruiz, Jordi Ortiz, Alicia Gómez-Pascual, Zhongbo Chen, Mike Nalls, Faraz Faghri, John Hardy, Irene Díez, Paolo Maietta, Sara Álvarez, Mina Ryten, Juan A Botía",
+      "journal": "bioRxiv",
+      "doi": "https://www.biorxiv.org/content/10.1101/2021.06.29.450324.abstract",
+      "citations": "3",
+      "abstract": "Gene set based phenotype enrichment analysis (detecting phenotypic terms that emerge as significant in a set of genes) can improve the rate of genetic diagnoses amongst other research purposes. To facilitate diverse phenotype analysis, we developed PhenoExam, a freely available R package for tool developers and a web interface for users, which performs: (1) phenotype and disease enrichment analysis on a gene set; (2) measures statistically significant phenotype similarities between gene sets and (3) detects significant differential phenotypes or disease terms across different databases. PhenoExam achieves these tasks by integrating databases or resources such as the HPO, MGD, CRISPRbrain, CTD, ClinGen, CGI, OrphaNET, UniProt, PsyGeNET, and Genomics England Panel App. PhenoExam accepts both human and mouse genes as input. We developed PhenoExam to assist a variety of users, including clinicians, computational biologists and geneticists. It can be used to support the validation of new gene-to-disease discoveries, and in the detection of differential phenotypes between two gene sets (a phenotype linked to one of the gene set but no to the other) that are useful for differential diagnosis and to improve genetic panels. We validated PhenoExam performance through simulations and its application to real cases. We demonstrate that PhenoExam is effective in distinguishing gene sets or Mendelian diseases with very similar phenotypes through projecting the disease-causing genes into their annotation-based phenotypic spaces. We also tested the tool with early onset Parkinson’s disease and dystonia genes, to show …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=15056952507285131189&as_sdt=5"
+    },
+    {
+      "title": "BIGcoldTRUCKS: a BIG data dashboard for the management of COLD chain logistics in refrigerated TRUCKS",
+      "authors": "Aurora González-Vidal, Paula Gómez-Bernal, José Mendoza-Bernal, Antonio F Skarmeta",
+      "journal": "2021 IEEE International Conference on Big Data (Big Data)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9671633/",
+      "citations": "2",
+      "abstract": "The technological development of the food industry is bringing new opportunities for the optimization of cold chain logistics. Many businesses of all sizes have been capturing their trips’ data and they are ready to apply Big Data analytics and use Big Data tools in order to extract knowledge and patterns that can be useful for decision-making and therefore provide added value to their business. In this line, we developed a shiny dynamic dashboard that provides a friendly user interface to the business in order to visualize and understand their data in the form of rankings, trips duration, demand seasonality, and geographic representation of the trips. The dashboard connects seamlessly with two Big Data tools, elasticSearch and the DEEP training facility from the European Open Science Hub (EOSC). More specifically, those tools were used for data indexing and demand estimation of products using cloud computing …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=12514773445282707979&as_sdt=5"
+    },
+    {
+      "title": "Quality of Information within Internet of Things Data",
+      "authors": "Tomás Alcañiz, Aurora González-Vidal, Alfonso P Ramallo, Antonio F Skarmeta",
+      "journal": "Data Integrity and Quality",
+      "doi": "https://books.google.com/books?hl=en&lr=&id=kVE2EAAAQBAJ&oi=fnd&pg=PA77&dq=info:blk8L2XeojAJ:scholar.google.com&ots=3gBGRTa-3x&sig=k7z7DRrUPdZ97AQslQkhKaW6yds",
+      "citations": "0",
+      "abstract": "Due to the increasing number of IoT devices, the amount of data gathered nowadays is rather large and continuously growing. The availability of new sensors presented in IoT devices and open data platforms provides new possibilities for innovative applications and use-cases. However, the dependence on data for the provision of services creates the necessity of assuring the quality of data to ensure the viability of the services. In order to support the evaluation of the valuable information, this chapter shows the development of a series of metrics that have been defined as indicators of the quality of data in a quantifiable, fast, reliable, and human-understandable way. The metrics are based on sound statistical indicators. Statistical analysis, machine learning algorithms, and contextual information are some of the methods to create quality indicators. The developed framework is also suitable for deciding between different datasets that hold similar information, since until now with no way of rapidly discovering which one is best in terms of quality had been developed. These metrics have been applied to real scenarios which have been smart parking and environmental sensing for smart buildings, and in both cases, the methods have been representative for the quality of the data.",
+      "citations_link": ""
+    },
+    {
+      "title": "Abbasi, Qammer Hussain 8 Adda, Mo 1 Ahmad Almashor, Mahathir 13 Akrivopoulou, G. 144",
+      "authors": "Christos Alexakos, Ali Alzubaidi, D Amaxilatis, Dimitrios Amaxilatis, Jin An, A Anagnostopoulos, Christos Anagnostopoulos, Khoon Wee Ang, Shuja Ansari, A Antoniou, Christos Antonopoulos, Kiyo Arai, Jianmin Bao, Kostas Berberidis, Xuyang Cao, Barbara Carminati, A Catalani, Shi-Cho Cha, Siteng Chang, Lucas Chateau, I Chatzigiannakis, Ioannis Chatzigiannakis, Xiaobo Che, Chen Chen, Jiann-Liang Chen, Jyun-Teng Chen, Kevin Thomas Chew, Ming-Chao Chiang, Hyun Hak Cho, Bruno Citoni, Felice Crupi, Mengying Cui, Tamer ElBatt, Omar El Nawawy, Aya Elouali, Evanthia Faliagka, Chunxiao Fan, Xiumei Fan, Guangzu Fang, Ibrahim Farrag, Carmelo Felicetti, Shouting Feng, Elena Ferrari, Yoshikazu Fukuyama, Nada GabAllah, Yasser Gadallah, Xinzhi Gao, Zihao Gao, Yao Ge, Anna Geofrey, Pedro Gonzalez Gil, Aurora Gonzalez Vidal, Reese Grimsley, Benzhen Guo, Junqi Guo, Xinyu Guo, Talal Halabi, Yuki Hara, Zhengfang He, Chun-Han Hsu",
+      "journal": "",
+      "doi": "https://www.computer.org/csdl/proceedings-article/smartiot/2021/451100a399/1xDQcTRLsU8",
+      "citations": "0",
+      "abstract": "",
+      "citations_link": ""
+    }
+  ],
+  "2020": [
+    {
+      "title": "A hybrid neuro-fuzzy inference system-based algorithm for time series forecasting applied to energy consumption prediction",
+      "authors": "Mohammed Ali Jallal, Aurora Gonzalez-Vidal, Antonio F Skarmeta, Samira Chabaa, Abdelouhab Zeroual",
+      "journal": "Applied Energy",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S030626192030489X",
+      "citations": "78",
+      "abstract": "The accuracy of the prediction of buildings’ energy consumption is being tackled using existing artificial intelligence techniques. However, there is a lack of effort on the development of new techniques for solving that problem and, therefore, achieving higher performance, which is important for the efficient management of energy in many levels. This study addresses this gap by proposing a new hybrid machine learning algorithm that incorporates the adaptive neuro-fuzzy inference system model with a new version of the firefly algorithm denominated as the gender-difference firefly algorithm. We expanded the search space diversification to increase the accuracy on the prediction and adopted the autoregressive process in order to approximate the chaotic behavior of the consumption time series. A new layer, denominated as non-working time adaptation was also integrated so as to decrease the fast variability of the …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5318383946184425180&as_sdt=5"
+    },
+    {
+      "title": "Missing data imputation with bayesian maximum entropy for internet of things applications",
+      "authors": "Aurora González-Vidal, Punit Rathore, Aravinda S Rao, José Mendoza-Bernal, Marimuthu Palaniswami, Antonio F Skarmeta-Gómez",
+      "journal": "IEEE Internet of Things Journal",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/9066992/",
+      "citations": "32",
+      "abstract": "Internet of Things (IoT) enables the seamless integration of sensors, actuators, and communication devices for real-time applications. IoT systems require good quality sensor data in order to make real-time decisions. However, values are often missing from the sensor data collected owing to faulty sensors, a loss of data during communication, interference, and measurement errors. Considering the spatiotemporal nature of IoT data and the uncertainty of the data collected by sensors, we propose a new framework with which to impute missing values utilizing Bayesian maximum entropy (BME) as a convenient means to estimate the missing data from IoT applications. Missing sensor measurements adversely affect the quality of data, and consequently the performance and outcomes of IoT systems. Our proposed framework incorporates BME in order to impute missing values in diverse IoT scenarios by making use of …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=3731656465469993144&as_sdt=5"
+    },
+    {
+      "title": "Domain Agnostic Quality of Information Metrics in IoT-Based Smart Environments",
+      "authors": "Aurora González-Vidal, Tomás Alcaniz-Cascales, Thorben Iggena, Eushay Bin Ilyas, Antonio Skarmeta",
+      "journal": "Intelligent Environments 2020: Workshop Proceedings of the 16th International Conference on Intelligent Environments",
+      "doi": "https://books.google.com/books?hl=en&lr=&id=GJP-DwAAQBAJ&oi=fnd&pg=PA343&dq=info:SLst1Omk1Q0J:scholar.google.com&ots=Vgfst3yPA0&sig=l6K1Q3FIJvJJoD0oTWdhk4A1_p0",
+      "citations": "5",
+      "abstract": "Thanks to the proliferation of IoT devices that are interconnected, huge amounts of data are being gathered nowadays. The availability of all these new sensors, data sources and open data platforms offers new possibilities for innovative applications and use-cases that are many times dynamic. However, if we plan to depend on data for the optimal provision of services, it is of utmost importance to ensure the quality of data and the quality of information that we are handling in an online manner. Furthermore, geolocalised data provides a richer context in which the quality of information can be measured and in which services are more advanced. In order to support the process of finding the right information, we have defined several metrics in single-sensor and multi-sensor scenarios that are based on statistical analysis, machine learning algorithms and contextual information. We have applied them in two scenarios: smart parking and environmental sensing for smart buildings.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=996884216726534984&as_sdt=5"
+    }
+  ],
+  "2019": [
+    {
+      "title": "An open IoT platform for the management and analysis of energy data",
+      "authors": "Fernando Terroso-Saenz, Aurora González-Vidal, Alfonso P Ramallo-González, Antonio F Skarmeta",
+      "journal": "Future generation computer systems",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S0167739X17304181",
+      "citations": "187",
+      "abstract": "Buildings are key players when looking at end-use energy demand. It is for this reason that during the last few years, the Internet of Things (IoT) has been considered as a tool that could bring great opportunities for energy reduction via the accurate monitoring and control of a large variety of energy-related agents in buildings. However, there is a lack of IoT platforms specifically oriented towards the proper processing, management and analysis of such large and diverse data. In this context, we put forward in this paper the IoT Energy Platform (IoTEP) which attempts to provide the first holistic solution for the management of IoT energy data. The platform we show here (that has been based on FIWARE) is suitable to include several functionalities and features that are key when dealing with energy quality insurance and support for data analytics. As part of this work, we have tested the platform IoTEP with a real use case that includes data and information from three buildings totalizing hundreds of sensors. The platform has exceeded expectations proving robust, plastic and versatile for the application at hand.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=es&cites=3841079876999830179"
+    },
+    {
+      "title": "A Methodology for Energy Multivariate Time Series Forecasting in Smart Buildings Based on Feature Selection",
+      "authors": "Aurora González-Vidal, Fernando Jiménez, Antonio F Gómez-Skarmeta",
+      "journal": "Energy and Buildings",
+      "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0378778818338775",
+      "citations": "118",
+      "abstract": "The massive collection of data via emerging technologies like the Internet of Things (IoT) requires finding optimal ways to reduce the created features that have a potential impact on the information that can be extracted through the machine learning process. The mining of knowledge related to a concept is done on the basis of the features of data. The process of finding the best combination of features is called feature selection. In this paper we deal with multivariate time-dependent series of data points for energy forecasting in smart buildings. We propose a methodology to transform the time-dependent database into a structure that standard machine learning algorithms can process, and then, apply different types of feature selection methods for regression tasks. We used Weka for the tasks of database transformation, feature selection, regression, statistical test and forecasting. The proposed methodology improves MAE by 59.97% and RMSE by 40.75%, evaluated on training data, and it improves MAE by 42.28% and RMSE by 36.62%, evaluated on test data, on average for 1-step-ahead, 2-step-ahead and 3-step-ahead when compared to not applying any feature selection methodology.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=es&cites=8740804337907651786&as_sdt=5"
+    },
+    {
+      "title": "IoT for water management: Towards intelligent anomaly detection",
+      "authors": "Aurora González-Vidal, Jesús Cuenca-Jara, Antonio F Skarmeta",
+      "journal": "2019 IEEE 5th World Forum on Internet of Things (WF-IoT)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8767190/",
+      "citations": "29",
+      "abstract": "Given that the global water system is deteriorating and the supply and demand are very dynamic, smart ways to improve the water management system are needed so that it becomes more efficient and to extend the services provided to the citizens leading to smart cities. One of many water related problems that can be addressed by the Internet of Things is anomaly detection in water consumption. The analysis of data collected by smart meters will help to personalize the feedback to customers, prevent water waste and detect alarming situations. Water consumption data can be considered as a time series. Time series anomaly detection is an old topic but in this work we attempt to examine which techniques suits better for water consumption. We examine two very well-known methods for time series anomaly detection: an ARIMA-based framework anomaly detection technique which selects as outliers those points …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=11234912542450326108&as_sdt=5"
+    },
+    {
+      "title": "Feature selection for blood glucose level prediction in type 1 diabetes mellitus by using the sequential input selection algorithm (SISAL)",
+      "authors": "Ignacio Rodríguez-Rodríguez, José-Víctor Rodríguez, Aurora González-Vidal, Miguel-Ángel Zamora",
+      "journal": "Symmetry",
+      "doi": "https://www.mdpi.com/2073-8994/11/9/1164",
+      "citations": "20",
+      "abstract": "Feature selection is a primary exercise to tackle any forecasting task. Machine learning algorithms used to predict any variable can improve their performance by lessening their computational effort with a proper dataset. Anticipating future glycemia in type 1 diabetes mellitus (DM1) patients provides a baseline in its management, and in this task, we need to carefully select data, especially now, when novel wearable devices offer more and more information. In this paper, a complete characterization of 25 diabetic people has been carried out, registering innovative variables like sleep, schedule, or heart rate in addition to other well-known ones like insulin, meal, and exercise. With this ground-breaking data compilation, we present a study of these features using the Sequential Input Selection Algorithm (SISAL), which is specially prepared for time series data. The results rank features according to their importance, regarding their relevance in blood glucose level prediction as well as indicating the most influential past values to be taken into account and distinguishing features with person-dependent behavior from others with a common performance in any patient. These ideas can be used as strategies to select data for predicting glycemia depending on the availability of computational power, required speed, or required accuracy. In conclusion, this paper tries to analyze if there exists symmetry among the different features that can affect blood glucose levels, that is, if their behavior is symmetric in terms of influence in glycemia.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5586235184092494880&as_sdt=5"
+    },
+    {
+      "title": "The development of an IoT Infrastructure to Perform Behavioural Change Towards Low Energy Habits",
+      "authors": "Alfonso P Ramallo-González, Aurora González-Vidal, Pedro J Fernandez-Ruiz, AF Skarmeta-Gómez",
+      "journal": "Proceedings of the 16th IBPSA Conference, Rome, Italy",
+      "doi": "http://www.ibpsa.org/proceedings/BS2019/BS2019_211071.pdf",
+      "citations": "1",
+      "abstract": "Building simulation allows to understand on a very precise manner the way in which the energy flows are occurring within a building. This, apart from being necessary to evaluate the energy performance, offers the possibility of tackling several aspects of the building operation. In most buildings, occupants are capable of modifying operation parameters such as switching off the lights, or changing the set point temperatures. A poor selection of these operational parameters may lead to a larger energy consumption that one may expect. Although some buildings have amperimetric clamps and other sensors that can inform about energy consumption, it is practically impossible to measure all the energy flows that can be given by a model. Making use of this, a building has been modelled and calibrated, to get an informative model that was then used for evaluating the potential of energy behaviour interventions in demand reduction. The work has used more than 200 sensors to ensure that the results were close to those in reality, and the model has been seen to represent the demands accurately. The savings obtained have been seen to be substantial, especially for winter where a poor mental model of occupants is making them select set point temperatures that are too high, even affecting negatively their comfort.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5435924355765795615&as_sdt=5"
+    }
+  ],
+  "2018": [
+    {
+      "title": "Beats: Blocks of eigenvalues algorithm for time series segmentation",
+      "authors": "Aurora Gonzalez-Vidal, Payam Barnaghi, Antonio F Skarmeta",
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8319952/",
+      "citations": "30",
+      "abstract": "The massive collection of data via emerging technologies like the Internet of Things (IoT) requires finding optimal ways to reduce the observations in the time series analysis domain. The IoT time series require aggregation methods that can preserve and represent the key characteristics of the data. In this paper, we propose a segmentation algorithm that adapts to unannounced mutations of the data (i.e., data drifts). The algorithm splits the data streams into blocks and groups them in square matrices, computes the Discrete Cosine Transform (DCT), and quantizes them. The key information is contained in the upper-left part of the resulting matrix. We extract this sub-matrix, compute the modulus of its eigenvalues, and remove duplicates. The algorithm, called BEATS, is designed to tackle dynamic IoT streams, whose distribution changes over time. We implement experiments with six datasets combining real, synthetic …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5828818161847413947&as_sdt=5"
+    },
+    {
+      "title": "Machine learning based electric load forecasting for short and long-term period",
+      "authors": "Tomas Vantuch, Aurora González Vidal, Alfonso P Ramallo-González, Antonio F Skarmeta, Stanislav Misák",
+      "journal": "2018 IEEE 4th World Forum on Internet of Things (WF-IoT)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8355123/",
+      "citations": "29",
+      "abstract": "Electricity is currently the most important energy vector in the domestic sector and industry. Unlike fuels, electricity is hard and expensive to store. This creates the need of precise coupling between generation and demand. In addition, the transmission lines of electric power need to be sized for a given maximum power, and overloading them may result in blackout or electrical accidents. For these reasons, energy consumption forecasting is vital. The time scale for forecasting depends on who is interested in such prediction. Grid operators have to predict the electricity demand for the next day, to program the generation accordingly. Grid designers have to predict energy consumption at the scale of years, to ensure that the infrastructure is sufficient. On the other hand, smart grid controllers with almost instant response time may need a prediction on the order of minutes. We have seen that changing the time scale in …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=13649733239956615492&as_sdt=5"
+    },
+    {
+      "title": "Commissioning of the controlled and automatized testing facility for human behavior and control (CASITA)",
+      "authors": "Ignacio Rodríguez-Rodríguez, Aurora Gonzalez Vidal, Alfonso P Ramallo Gonzalez, Miguel Ángel Zamora",
+      "journal": "Sensors",
+      "doi": "https://www.mdpi.com/1424-8220/18/9/2829",
+      "citations": "14",
+      "abstract": "Human behavior is one of the most challenging aspects in the understanding of building physics. The need to evaluate it requires controlled environments and facilities in which researchers can test their methods. In this paper, we present the commissioning of the Controlled and Automatized Testing Facility for Human Behavior (CASITA). This is a controlled space emulation of an office or flat, with more than 20 environmental sensors, 5 electrical meters, and 10 actuators. Our contribution shown in this paper is the development of an infrastructure-Artificial Intelligence (AI) model pair that is perfectly integrated for the study of a variety of human energy use aspects. This facility will help to perform studies about human behavior in a controlled space. To verify this, we have tested this emulation for 60 days, in which equipment was turned on and off, the settings of the conditioning system were modified remotely, and lighting operation was similar to that in real behaviors. This period of commissioning generated 74.4 GB of raw data including high-frequency measurements. This work has shown that CASITA performs beyond expectations and that sensors and actuators could enable research on a variety of disciplines related to building physics and human behavior. Also, we have tested the PROPHET software, which was previously used in other disciplines and found that it could be an excellent complement to CASITA for experiments that require the prediction of several pertinent variables in a given study. Our contribution has also been to proof that this package is an ideal “soft” addition to the infrastructure. A case study forecasting energy consumption …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=970686447050300383&as_sdt=5"
+    },
+    {
+      "title": "Empirical study of massive set-point behavioral data: Towards a cloud-based artificial intelligence that democratizes thermostats",
+      "authors": "Aurora González-Vidal, Alfonso P Ramallo-González, Antonio Skarmeta",
+      "journal": "IEEE",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8421351/",
+      "citations": "6",
+      "abstract": "The research showed in this document consisted on monitoring 546 air conditioners of individual offices located in two large buildings for the later evaluation of the behaviors of users with respect to their controllers. Data was collected over 14 months and provided important insights about the phenomenon. It was seen that users can be separated in two groups, one that likes to interact with the controllers often and change the temperature at least once a week and another that interact less. It was seen that the variability of users with respect to the thermostat values they prefer is high, and that this should be taken into account when creating a 'one fits all' solution. Also, it appears that adaptive thermal comfort theories that suggest users want lower temperatures in cold months are not reflected on the set-points chosen. In addition, we have seen that people interacting more with the controllers tend to waste less energy …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=13101050213559567235&as_sdt=5"
+    },
+    {
+      "title": "Detaching the design, development and execution of big data analysis processes: A case study based on energy and behavioral analytics",
+      "authors": "Anastasios Zafeiropoulos, Eleni Fotopoulou, Aurora González-Vidal, Antonio Skarmeta",
+      "journal": "2018 Global Internet of Things Summit (GIoTS)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8534525/",
+      "citations": "5",
+      "abstract": "Numerous tools and approaches are evolving towards the support of data mining and analysis processes, focusing on part or the overall lifecycle of such processes. In parallel, penetration of data analytics tools in the market is continuously increasing, along with their adoption by various stakeholders, including data scientists, decision and policy makers and business analysts. However, given the wide diversity in the needs for realizing an analysis and the level of expertise of the various stakeholders, there is a need for design and implementation of analysis toolkits that can support part or the overall lifecycle of an analysis process, without imposing dependencies on the type of tool or technology to be used. In the current manuscript, an approach for detaching the design, development and execution of big data analysis processes is detailed, focusing on the realization of energy and behavioral analytics, targeted to …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=14638251538396491972&as_sdt=5"
+    }
+  ],
+  "2017": [
+    {
+      "title": "Providing personalized energy management and awareness services for energy efficiency in smart buildings",
+      "authors": "Eleni Fotopoulou, Anastasios Zafeiropoulos, Fernando Terroso-Sáenz, Umutcan Şimşek, Aurora González-Vidal, George Tsiolis, Panagiotis Gouvas, Paris Liapis, Anna Fensel, Antonio Skarmeta",
+      "journal": "Sensors",
+      "doi": "https://www.mdpi.com/1424-8220/17/9/2054",
+      "citations": "68",
+      "abstract": "Considering that the largest part of end-use energy consumption worldwide is associated with the buildings sector, there is an inherent need for the conceptualization, specification, implementation, and instantiation of novel solutions in smart buildings, able to achieve significant reductions in energy consumption through the adoption of energy efficient techniques and the active engagement of the occupants. Towards the design of such solutions, the identification of the main energy consuming factors, trends, and patterns, along with the appropriate modeling and understanding of the occupants’ behavior and the potential for the adoption of environmentally-friendly lifestyle changes have to be realized. In the current article, an innovative energy-aware information technology (IT) ecosystem is presented, aiming to support the design and development of novel personalized energy management and awareness services that can lead to occupants’ behavioral change towards actions that can have a positive impact on energy efficiency. Novel information and communication technologies (ICT) are exploited towards this direction, related mainly to the evolution of the Internet of Things (IoT), data modeling, management and fusion, big data analytics, and personalized recommendation mechanisms. The combination of such technologies has resulted in an open and extensible architectural approach able to exploit in a homogeneous, efficient and scalable way the vast amount of energy, environmental, and behavioral data collected in energy efficiency campaigns and lead to the design of energy management and awareness services targeted to the …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=12690236729018692011&as_sdt=5"
+    },
+    {
+      "title": "Data driven modeling for energy consumption prediction in smart buildings",
+      "authors": "Aurora González-Vidal, Alfonso P Ramallo-González, Fernando Terroso-Saenz, Antonio Skarmeta",
+      "journal": "IEEE",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8258499/",
+      "citations": "45",
+      "abstract": "Energy efficiency is in the interest of everyone, from individuals to governments, since it yields economical savings, reduces greenhouse gas emissions and alleviates energy poverty. Buildings are one of the largest consumers of primary energy and attaining their efficiency is, therefore, an important goal. The Internet of Things currently provides vast amounts of data that can be used to extract knowledge of all kinds, including that regarding energy prediction. This has motivated us to test wether the prior information on the physics of building heat transfer, that is currently available is now redundant owing to the completeness of the data from the system. We propose a machine learning approach and a grey-box model approach with which to test this hypothesis. The former is blind to the physiscs of the problem, while the latter is greatly influenced by it. The energy consumption prediction models were created with …",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=14110889419484186767&as_sdt=5"
+    },
+    {
+      "title": "Human mobility analysis based on social media and fuzzy clustering",
+      "authors": "Jesus Cuenca-Jara, Fernando Terroso-Saenz, Mercedes Valdes-Vela, Aurora Gonzalez-Vidal, Antonio F Skarmeta",
+      "journal": "2017 Global Internet of Things Summit (GIoTS)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8016266/",
+      "citations": "10",
+      "abstract": "A better understanding of the movement of a city aids to the efficient adaptation of the energy consumption to the necessities of citizens. For this purpose, the use of clustering algorithms applied to large amounts of geo-tagged data generated in social-networks is foreseen to become an interesting course of action. This will help to comprehensively capture and understand the movement of people in large spatial regions. Due to the nature of this kind of data (with high levels of uncertainty and noise) soft-computing owns the necessary characteristics to extract accurate mobility models. The present work introduces a novel approach to extract personal mobility patterns by means of the fuzzy c-means (FCM) algorithm. A preliminary study with a real Twitter database is also included.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=1653730465533022802&as_sdt=5"
+    },
+    {
+      "title": "An open architecture for iot data analytics in smart cities",
+      "authors": "Fernando Terroso-Saenz, Aurora Gonzalez-Vidal, Jesus Cuenca-Jara, Antonio F Skarmeta",
+      "journal": "2017 global wireless summit (GWS)",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/8300468/",
+      "citations": "3",
+      "abstract": "This paper presents a novel platform for smart city deployments. The proposed framework helps in the organization and utilization of extracted information coming from different communication technologies and sensors deployed in cities, stan-dardizing the way that data comes from very varied sources offering built-in features to support advanced data analytics. The platform suitability is tested through its application in a smart city scenario for urban dynamics detection based on data from a well-known Online Social Network platform.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=1895974135892825920&as_sdt=5"
+    },
+    {
+      "title": "Human Mobility Analysis based on Social Media and Fuzzy CLustering",
+      "authors": "Jesús Cuenca Jara, Fernando Terroso-Saenz, Mercedes Valdes-Vela, Aurora Gonzalez-Vidal, Antonio F Skarmeta-Gómez",
+      "journal": "",
+      "doi": "https://pdfs.semanticscholar.org/ac3f/92e7018551348e5b054bbbdf7b18b5f81bcc.pdf",
+      "citations": "0",
+      "abstract": "Human Mobility Analysis based on Social Media and Fuzzy CLustering Page 1 Human Mobility Analysis based on Social Media and Fuzzy CLustering Geneva, Switzerland, 6-9 June 2017 GIoTS Jesús Cuenca Jara Dr. Fernando Terroso-Saenz Dr. Mercedes Valdes-Vela Dr. Aurora Gonzalez-Vidal Dr. Antonio F. Skarmeta-Gómez University of Murcia Faculty of Computer Science Deparment of Communications and Information Engineering Horizon 2020 Page 2 Agenda 1)Introduction 2)Proposed system 3)Evaluation 4)Conclusions Page 3 • IoT not limited to static sensors, but moving ones capable to deliver measurements at different points within an area. • At the same time, social networking has become a very popular activity in most developed and developing societies allowing people remain socially connected • The mmobility pattern is a key element to identify possible actions for energy efficiency Introduction (1/…",
+      "citations_link": ""
+    }
+  ],
+  "2016": [
+    {
+      "title": "Applicability of big data techniques to smart cities deployments",
+      "authors": "M Victoria Moreno, Fernando Terroso-Sáenz, Aurora González-Vidal, Mercedes Valdés-Vela, Antonio F Skarmeta, Miguel A Zamora, Victor Chang",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "doi": "https://ieeexplore.ieee.org/abstract/document/7558230/",
+      "citations": "179",
+      "abstract": "This paper presents the main foundations of big data applied to smart cities. A general Internet of Things based architecture is proposed to be applied to different smart cities applications. We describe two scenarios of big data analysis. One of them illustrates some services implemented in the smart campus of the University of Murcia. The second one is focused on a tram service scenario, where thousands of transit-card transactions should be processed. Results obtained from both scenarios show the potential of the applicability of this kind of techniques to provide profitable services of smart cities, such as the management of the energy consumption and comfort in smart buildings, and the detection of travel profiles in smart transport.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=es&cites=17122955335237520854&as_sdt=5"
+    },
+    {
+      "title": "Towards energy efficiency smart buildings models based on intelligent data analytics",
+      "authors": "Aurora González-Vidal, Victoria Moreno-Cano, Fernando Terroso-Sáenz, Antonio F Skarmeta",
+      "journal": "Procedia Computer Science",
+      "doi": "https://www.sciencedirect.com/science/article/pii/S1877050916302460",
+      "citations": "41",
+      "abstract": "This work presents how to proceed during the processing of all available data coming from smart buildings to generate models that predict their energy consumption. For this, we propose a methodology that includes the application of different intelligent data analysis techniques and algorithms that have already been applied successfully in related scenarios, and the selection of the best one depending on the value of the selected metric used for the evaluation. This result depends on the specific characteristics of the target building and the available data. Among the techniques applied to a reference building, Bayesian Regularized Neural Networks and Random Forest are selected because they provide the most accurate predictive results.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=10064527497515649963&as_sdt=5"
+    },
+    {
+      "title": "Human mobility prediction based on social media with complex event processing",
+      "authors": "Fernando Terroso-Sáenz, Jesús Cuenca-Jara, Aurora González-Vidal, Antonio F Skarmeta",
+      "journal": "International Journal of Distributed Sensor Networks",
+      "doi": "https://journals.sagepub.com/doi/abs/10.1177/155014775836392",
+      "citations": "17",
+      "abstract": "The combination of mobile and social media sensors is foreseen to become a crucial course of action so as to comprehensively capture and understand the movement of people in large spatial regions. In that sense, the present work describes a novel personal location predictor that makes use of these two types of sensors. Firstly, it extracts the mobility models of an area capturing aspects related to particular users along with crowd-based features on the basis of geotagged tweets. Unlike previous approaches, the proposed solution mines such models in an online manner so that no previous off-line training is required. Then, on the basis of such models, a predictor able to forecast the next activity and position of a user is developed. Finally, the described approach is tested by using Twitter datasets from two different cities.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=5260367162860358552&as_sdt=5"
+    },
+    {
+      "title": "Human mobility modelling based on dense transit areas detection with opportunistic sensing",
+      "authors": "Fernando Terroso-Sáenz, Mercedes Valdes-Vela, Aurora González-Vidal, Antonio F Skarmeta",
+      "journal": "Mobile Information Systems",
+      "doi": "https://www.hindawi.com/journals/misy/2016/9178539/abs/",
+      "citations": "3",
+      "abstract": "With the advent of smartphones, opportunistic mobile crowdsensing has become an instrumental approach to perceive large-scale urban dynamics. In this context, the present work presents a novel approach based on such a sensing paradigm to automatically identify and monitor the areas of a city comprising most of the human transit. Unlike previous approaches, the system performs such detection in real time at the same time the opportunistic sensing is carried out. Furthermore, a novel multilayered grill partitioning to represent such areas is stated. Finally, the proposal is evaluated by means of a real-world dataset.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=14019355081967992303&as_sdt=5"
+    },
+    {
+      "title": "Towards anticipate detection of complex event processing rules with probabilistic modelling",
+      "authors": "Fernando Terroso-Sáenz, Aurora González-Vidal, Antonio F Skarmeta",
+      "journal": "International Journal of Design & Nature and Ecodynamics",
+      "doi": "https://www.witpress.com/elibrary/DNE-volumes/11/3/1199",
+      "citations": "2",
+      "abstract": "Nowadays, Big Data implies not only the need of processing high volume of data, but also do it in a timely manner. In this scope, the Complex Event Processing (CEP) paradigm has arisen as a prominent real-time rule-based solution. Due to its reactive nature, a CEP system might suffer from slight delays in the activation of its rules that could not be desirable in certain environments. As a result, the present work introduces a novel mechanism that intends to anticipate the activation of event-based rules and, thus, come up with even faster CEP systems. This is achieved by means of a probabilistic modelling of each rule’s precondition. Finally, the proposal includes a preliminary evaluation so as to show its suitability.",
+      "citations_link": "https://scholar.google.es/scholar?oi=bibs&hl=en&cites=277580270588739398&as_sdt=5"
+    }
+  ]
+}

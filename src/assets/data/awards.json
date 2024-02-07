@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Research prize computer scientific society of spain-bbva foundation",
+    "description": "For their outstanding contributions in the field of the Internet of Things, which have been recognized through publications in high-impact journals, as well as for their level of internationalization manifested in various research stays and postdoctoral contracts in renowned research centers.",
+    "link": "https://www.fbbva.es/galardonados/aurora-gonzalez-vidal/",
+    "image": "/aurora.gonzalez2/images/bbva.jpg",
+    "year": "2022"
+  },
+  {
+    "title": "Ma Eugenia Moreno",
+    "description": "Murcian Society of Family and Community Medicine, for the article \"The correlation between point-of-care ultrasound and digital tomosynthesis when used with suspected COVID-19 pneumonia patients in primary care,\" published in The Ultrasound Journal in 2021.",
+    "link": "",
+    "image": "/aurora.gonzalez2/images/smumfyc.png",
+    "year": "2022"
+  },
+  {
+    "title": "Engineering and Technology Award",
+    "description": "From the 2nd Young Scientist Award promoted by the Science Lyceum of the Region of Murcia, for the article \"Imputation of Missing Data with Bayesian Maximum Entropy for Internet of Things Applications,\" published in the IEEE Internet of Things Journal in 2020.",
+    "link": "https://www.um.es/web/ucc/-/tres-investigadoras-de-la-umu-j%C3%B3venes-promesas-de-la-ciencia-regional/1.0",
+    "image": "/aurora.gonzalez2/images/lyceum.jpg",
+    "year": "2021"
+  },
+  {
+    "title": "Extraordinary Doctorate Award in Computer Science",
+    "description": "Granted by Murcia University",
+    "link": "",
+    "image": "/aurora.gonzalez2/images/umu.jpg",
+    "year": "2021"
+  },
+  {
+    "title": "1st Frances Allen Award",
+    "description": "Best doctoral thesis defended by women since June 1, 2019, in the field of Artificial Intelligence at the XIX Conference of the Spanish Association for Artificial Intelligence (CAEPIA).",
+    "link": "https://caepia20-21.uma.es/awards.html?lang=es",
+    "image": "/aurora.gonzalez2/images/caepia.png",
+    "year": "2021"
+  }
+]

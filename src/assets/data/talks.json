@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/aurora.gonzalez2/images/youtube.png",
+    "title": "Artificial Intelligence for Smart Environments",
+    "video": "https://www.youtube.com/watch?v=Vecx1OEeoVU&ab_channel=AuroraGonzalezVidal",
+    "description": "This video presents the main results of the PhD thesis of Aurora González Vidal, which is focused on the application of Artificial Intelligence techniques to the development of Smart Environments. "
+  },
+  {
+    "image": "/aurora.gonzalez2/images/youtube.png",
+    "title": "A combination of multi and univariate anomalydetection in urban irrigation systems",
+    "video": "https://www.youtube.com/embed/ox2MMM7P6qg?si=awE2PKvHj79LtT0p",
+    "description": "This video presents the main results of the paper 'A combination of multi and univariate anomaly detection in urban irrigation systems', which is focused on the application of Anomaly Detection techniques to the development of Smart Environments. "
+  },
+  {
+    "image": "/aurora.gonzalez2/images/youtube.png",
+    "title": "ENTROPY H2020 project: use case for energyefficiency in buildings class",
+    "video": "https://www.youtube.com/embed/prVJ35NqS8s?si=oTRLm1nGvrvcrFRG",
+    "description": "This video presents the main results of the ENTROPY H2020 project, which is focused on the application of Artificial Intelligence techniques to the development of Smart Environments. "
+  },
+  {
+    "image": "/aurora.gonzalez2/images/youtube.png",
+    "title": "IoTimpute - Shiny app para la imputación de valores faltantes en escenarios de Internet of Things",
+    "video": "https://www.youtube.com/embed/eqq-wuXt_yM?si=q9cGcBzJkn880Cpb",
+    "description": "This video presents the main results of the paper 'IoTimpute - Shiny app para la imputación de valores faltantes en escenarios de Internet of Things', which is focused on the application of Anomaly Detection techniques to the development of Smart Environments. "
+  }
+]

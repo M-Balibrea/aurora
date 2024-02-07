@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Shiny apps",
+    "projects": [
+      {
+        "title": "Energy consumption prediction (spanish)",
+        "image": "https://auroragonzalez.github.io/images/ecp.png",
+        "link": "http://gauss.inf.um.es:8080/predCONS/"
+      },
+      {
+        "title": "IC50 calculation (spanish)",
+        "image": "https://auroragonzalez.github.io/images/saic50.png",
+        "link": "http://gauss.inf.um.es:8080/IC50/"
+      }
+    ]
+  },
+  {
+    "title": "Teaching",
+    "projects": [
+      {
+        "title": "R online course (spanish)",
+        "image": "https://auroragonzalez.github.io/images/tabular.png",
+        "link": "https://gauss.inf.um.es/tabular/"
+      }
+    ]
+  },
+  {
+    "title": "Community",
+    "projects": [
+      {
+        "title": "UMUR: R users association in Murcia (spanish)",
+        "image": "https://auroragonzalez.github.io/images/umur.png",
+        "link": "https://gauss.inf.um.es/umur/"
+      }
+    ]
+  }
+]
