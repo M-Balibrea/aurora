@@ -2,7 +2,7 @@
 
 # Aurora's Portfolio Project
 
-<a target="_blank" href="[https://www.example.com/my great page](https://webs.um.es/aurora.gonzalez2)">Link Portfolio</a>
+[Link Portfolio](https://webs.um.es/aurora.gonzalez2){:target="\_blank"}
 
 ## Overview
 
