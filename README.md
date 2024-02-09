@@ -2,7 +2,9 @@
 
 # Aurora's Portfolio Project
 
-[Link Portfolio](https://webs.um.es/aurora.gonzalez2){:target="\_blank"}
+/_ eslint-disable _/
+[Link Portfolio](https://webs.um.es/aurora.gonzalez2){:target="_blank"}
+/_ eslint-enable \_/
 
 ## Overview
 
