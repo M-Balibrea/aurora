@@ -10,8 +10,12 @@ const Awards = () => {
           <div
             className='card card-side bg-base-100 shadow-xl m-4 lg:m-16'
             key={`award${i}`}>
-            <div className=' w-1/5 hidden lg:flex items-center justify-center'>
-              <figure>
+            <div className='w-1/5 hidden lg:flex items-center justify-center'>
+              <figure
+                onClick={() =>
+                  award.link !== '' && window.open(award.link, '_blank')
+                }
+                className={award.link !== '' ? 'cursor-pointer' : ''}>
                 <img src={award.image} alt='' />
               </figure>
             </div>

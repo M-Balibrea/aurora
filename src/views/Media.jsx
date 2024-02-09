@@ -16,7 +16,7 @@ export default function Publications() {
           className={activeTab === 0 ? 'tab tab-active' : 'tab'}
           onClick={() => setActiveTab(0)}>
           <h3 className='text-lg font-semibold leading-normal text-gray-800 mb-2'>
-            Talks
+            Interviews
           </h3>
         </a>
         <a
@@ -24,11 +24,11 @@ export default function Publications() {
           className={activeTab === 1 ? 'tab tab-active' : 'tab'}
           onClick={() => setActiveTab(1)}>
           <h3 className='text-lg font-semibold leading-normal text-gray-800 mb-2'>
-            Interviews
+            Talks
           </h3>
         </a>
       </div>
-      {activeTab === 0
+      {activeTab === 1
         ? TALKS.map((talk, i) => {
             return (
               <div

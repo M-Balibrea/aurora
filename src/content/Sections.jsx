@@ -2,7 +2,7 @@
 
 import Profile from '../views/Profile'
 import Publications from '../views/Publications'
-import Talks from '../views/Talks'
+import Media from '../views/Media'
 import R from '../views/R'
 import Awards from '../views/Awards'
 
@@ -33,7 +33,7 @@ export const SECTIONS = {
     label: 'Media',
     title: 'Media',
     url: '/media',
-    element: <Talks />,
+    element: <Media />,
   },
   r: {
     name: 'r',
